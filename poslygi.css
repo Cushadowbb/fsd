@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1a252b;
+  color: white;
+}
+
+.services {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background-color: #e3b87b;
+  margin: 0 auto 40px;
+  border-radius: 2px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  background-color: transparent;
+  max-width: 300px;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+nav ul {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
